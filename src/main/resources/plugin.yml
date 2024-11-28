@@ -1,0 +1,16 @@
+name: AskGiveOp
+version: '1.0'
+main: net.harupiza.askGiveOp.AskGiveOp
+api-version: '1.21'
+authors: [ fhrk_ ]
+website: https://github.com/fhrk-78
+commands:
+  oprequest:
+    aliases: [opr]
+    usage: "/oprequest"
+  opaccept:
+    aliases: [opa]
+    usage: "/opaccept <username>"
+  opdeny:
+    aliases: [opd]
+    usage: "/opdeny <username>"
